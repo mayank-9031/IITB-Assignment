@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Supplies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chemical Supplies</h1>
+
+        <!-- Toolbar for row actions -->
+        <div class="toolbar">
+            <button id="addRowBtn"><i class="fas fa-plus"></i></button>
+            <button id="moveUpBtn"><i class="fas fa-arrow-up"></i></button>
+            <button id="moveDownBtn"><i class="fas fa-arrow-down"></i></button>
+            <button id="deleteRowBtn"><i class="fas fa-trash"></i></button>
+            <button id="refreshBtn"><i class="fas fa-sync"></i></button>
+            <button id="saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+
+        <!-- Table for chemical data -->
+        <table id="chemicalTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Chemical Name</th>
+                    <th>Vendor</th>
+                    <th>Density (g/m³)</th>
+                    <th>Viscosity (m²/s)</th>
+                    <th>Packaging</th>
+                    <th>Pack Size</th>
+                    <th>Unit</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
